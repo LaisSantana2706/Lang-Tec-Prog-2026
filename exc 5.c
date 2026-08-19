@@ -1,11 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int main(int argc, char *argv[]) {
-	#include <stdio.h>
-#include <stdlib.h>
 #define pi 3.14159
 
 int main(int argc, char *argv[]) {
@@ -21,7 +15,7 @@ int main(int argc, char *argv[]) {
 	
 	printf ("A Area do circulo de raio %f = %f", raio, area);
 
-// area do trap?zio descendente, brilll
+// area do trap�zio descendente, brilll
 
     float areat, baseMaior, baseMenor, alt;
     
@@ -37,9 +31,6 @@ int main(int argc, char *argv[]) {
 	areat = ((baseMaior+baseMenor)*alt)/2;
 	
 	printf ("Area do trapezio descedente igual a %f", areat); 
-	
-	return 0;
-}
 	
 	return 0;
 }
