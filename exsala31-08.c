@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &n);
 	   // equivalente (n> 1 && n<=9)    
 	if(n<10 && n>0)
-		// isso é interessante (!(n==4 || n==6 || n==8 || n==9))
+		// isso Ã© interessante (!(n==4 || n==6 || n==8 || n==9))
 		if(n==1 || n==2 || n==3 || n==5 || n==7)
 			printf("O dobro de %d = %d", n, (n*2));
 		else if(n%2 == 0)
@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
 	
 	case 'b': printf("Benedito"; break);
 	
-	case 'c': printf("É complicado a situação"; break);
+	case 'c': printf("Ã‰ complicado a situaÃ§Ã£o"; break);
 	
 	case 'd': printf("Tamo junto"; break);
 	}
