@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 void exec2 (){
-    // 	FaÁa um programa que leia um valor em reais e a cotaÁ„o do dÛlar. Em seguida, imprima o valor correspondente em dÛlares
+    // 	Fa√ßa um programa que leia um valor em reais e a cota√ß√£o do d√≥lar. Em seguida, imprima o valor correspondente em d√≥lares
 	
 	float dola, real, cota;
 	scanf("%f", &real);
 	scanf("%f", &cota);
-	printf("%f reais s„o %f dolinhos\n", real, (real/cota));
+	printf("%f reais s√£o %f dolinhos\n", real, (real/cota));
 }
 
 void exec3 (){
@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 	//Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit
 	break;
 	
-	// (URI 1019) Leia um valor inteiro, que È o tempo de duraÁ„o em segundos de um determinado evento em uma f·brica, e informe-o expresso no formato horas:minutos:segundos
+	// (URI 1019) Leia um valor inteiro, que √© o tempo de dura√ß√£o em segundos de um determinado evento em uma f√°brica, e informe-o expresso no formato horas:minutos:segundos
 	case 8:
 		retorno = exec8();
 		printf("\t \t %d", retorno);
