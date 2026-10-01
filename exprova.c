@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
     n_mochilas = qtd_itens/capacidade;
     resto = qtd_itens%capacidade; 
     
-    printf("Legendario, s„o %d mochilas para seus itens, e sobram %d itnes", n_mochilas, resto);
+    printf("Legendario, s√£o %d mochilas para seus itens, e sobram %d itnes", n_mochilas, resto);
     
     //prova esoft MA ex03
     
@@ -135,7 +135,7 @@ int main(int argc, char *argv[]) {
     }
     
     //prova adsis ex2
-    // InicializaÁ„o dos pinos: A = 6 (1+2+3), B = 0, C = 0 
+    // Inicializa√ß√£o dos pinos: A = 6 (1+2+3), B = 0, C = 0 
     int A = 6; 
     int B = 0; 
     int C = 0; 
@@ -190,7 +190,7 @@ int main(int argc, char *argv[]) {
     n_mochilas = qtd_itens/capacidade;
     resto = qtd_itens%capacidade; 
     
-    printf("Legendario, s„o %d mochilas para seus itens, e sobram %d itnes", n_mochilas, resto);
+    printf("Legendario, s√£o %d mochilas para seus itens, e sobram %d itnes", n_mochilas, resto);
     
     //prova esof MB ex1
     int a, b, c; 
