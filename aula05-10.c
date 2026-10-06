@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("Leia os numeros");
 	
-	// PARA (INICIAL, CONDI«√O, INCREMENTO)
+	// PARA (INICIAL, CONDI√á√ÉO, INCREMENTO)
 	
 	for (i=0; i<10; i++){
 	    scanf("%d",&valor[i]);
